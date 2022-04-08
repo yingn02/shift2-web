@@ -1,5 +1,5 @@
 body {
-  overflow-x: hidden; <!-- 오른쪽 여백삭제-->
+  overflow-x: hidden;
   background-image: url("background.png");
   background-size: 100%;
   margin: 0px;
