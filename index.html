@@ -24,33 +24,42 @@
     if (index > x.length) {
         index = 1;  //인덱스가 초과되면 1로 변경
     }
-    x[index-1].style.display = "block";  //해당 인덱스는 block으로
+    x[index-1].style.display = "inline";  //해당 인덱스는 inline으로
     setTimeout(slideShow, 4000);   //함수를 4초마다 호출
 }
 </script>
 
   <body>
     <!-- 로고 -->
-    <div id = "logo" class="topmemu">
-      <a href="https://yingn02.github.io/shift2-web/"> <img src="main_logo.png" width=150>
-      <a>
+    <div id = "logo" class="top">
+      <a href="https://yingn02.github.io/shift2-web/">
+        <img src="main_logo.png" width=15%>
+      </a>
     </div>
     <!-- 메뉴 -->
-    <ul class="topmemu">
-      <li><a href="notice.html">공지사항</a></li>
-      <li><a href="info.html">게임정보</a></li>
-      <li><a href="guide.html">가이드</a></li>
-      <li><a href="community.html">커뮤니티</a></li>
-      <li><a href="support.html">문의</a></li>
-
-    </ul>
-    <!-- 이벤트 자동 슬라이드 -->
-    <div id = "autoslide">
-
-      <img class="slide1" src="sd1.PNG" width=60%>
-      <img class="slide1" src="sd2.PNG" width=60%>
-      <img class="slide1" src="sd3.PNG" width=60%>
+    <div id="topmemu" class="top">
+      <ul>
+        <li><a href="notice.html">공지사항</a></li>
+        <li><a href="info.html">게임정보</a></li>
+        <li><a href="guide.html">가이드</a></li>
+        <li><a href="community.html">커뮤니티</a></li>
+        <li><a href="support.html">문의</a></li>
+      </ul>
     </div>
+    <!-- 이벤트 자동 슬라이드 -->
+    <div id = "autoslide" class="middle">
+      <img class="slide1" src="sd1.PNG" width=100%>
+      <img class="slide1" src="sd2.PNG" width=100%>
+      <img class="slide1" src="sd3.PNG" width=100%>
+    </div>
+    <!--로그인-->
+    <div id = "login" class="middle">
+      <a href="login.html">
+        <img src="login.png" width=15%>
+      </a>
+    </div>
+
+
 
   </body>
 </html>
