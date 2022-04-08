@@ -7,29 +7,31 @@
     <link rel="stylesheet" href="style1.css">
   </head>
 
-  <script>
-    //이벤트 자동 슬라이드
-    var index = 0;   //이미지에 접근하는 인덱스
-    window.onload = function(){
-        slideShow();
-    }
 
-    function slideShow() {
-    var i;
-    var x = document.getElementsByClassName("slide1");  //slide1에 대한 dom 참조
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";   //처음에 전부 display를 none으로 한다.
-    }
-    index++;
-    if (index > x.length) {
-        index = 1;  //인덱스가 초과되면 1로 변경
-    }
-    x[index-1].style.display = "inline";  //해당 인덱스는 inline으로
-    setTimeout(slideShow, 4000);   //함수를 4초마다 호출
-}
-</script>
 
   <body>
+    <script>
+      //이벤트 자동 슬라이드
+      var index = 0;   //이미지에 접근하는 인덱스
+      window.onload = function(){
+          slideShow();
+      }
+
+      function slideShow() {
+      var i;
+      var x = document.getElementsByClassName("slide1");  //slide1에 대한 dom 참조
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";   //처음에 전부 display를 none으로 한다.
+      }
+      index++;
+      if (index > x.length) {
+          index = 1;  //인덱스가 초과되면 1로 변경
+      }
+      x[index-1].style.display = "inline";  //해당 인덱스는 inline으로
+      setTimeout(slideShow, 4000);   //함수를 4초마다 호출
+  }
+  </script>
+
     <!-- 로고 -->
     <div id = "logo" class="top">
       <a href="https://yingn02.github.io/shift2-web/">
