@@ -10,22 +10,15 @@ body {
   margin: 20px;
 }
 
-#logo {
-}
 
-#topmemu {
-
-}
-
-
-a {
+#topmemu a {
   color: white;
   text-decoration-line: none;
   font-weight: bold;
 
 }
 
-ul {
+#topmemu ul {
  background-color: black;
  list-style: none;
  overflow: hidden;
@@ -34,7 +27,7 @@ ul {
  padding-bottom: 20px;
 }
 
-li {
+#topmemu li {
   font-size: 17px;
   float: left;
   width: 20%;

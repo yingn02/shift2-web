@@ -1,0 +1,67 @@
+body {
+  overflow-x: hidden;
+  background-image: url("background.png");
+  background-size: 100%;
+  margin: 0px;
+}
+
+.top {
+  text-align: center;
+  margin: 20px;
+}
+
+
+#topmemu a {
+  color: white;
+  text-decoration-line: none;
+  font-weight: bold;
+
+}
+
+#topmemu ul {
+ background-color: black;
+ list-style: none;
+ overflow: hidden;
+ margin: 0 auto;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+
+#topmemu li {
+  font-size: 17px;
+  float: left;
+  width: 20%;
+}
+
+#infosidememu a {
+  color: black;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+
+#infosidememu ul {
+  background-color: white;
+  position: fixed;
+  list-style: none;
+}
+
+#infosidememu li {
+
+}
+
+
+
+.explain {
+  padding-top: 50px;
+  padding-left: 200px;
+
+}
+
+#autoslide {
+  position: relative; z-index: 1;
+}
+
+#login {
+  position: relative; left:10px; top: -100px; z-index: 2;
+
+}
