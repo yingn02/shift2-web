@@ -57,6 +57,14 @@ body {
 
 }
 
+.background_box {
+  position: relative; z-index: 1;
+}
+
+.prof_picture {
+  position: relative; z-index: 2; left:40px; top: -350px;
+}
+
 #autoslide {
   position: relative; z-index: 1;
 }
