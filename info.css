@@ -10,24 +10,29 @@ body {
   margin: 20px;
 }
 
+#topmemu {
+  text-align: center;
+  margin: 0 auto;
+  width: 1180px;
+}
 
 #topmemu a {
+  display: inline-block;
   color: white;
   text-decoration-line: none;
   font-weight: bold;
-
 }
 
 #topmemu ul {
  background-color: black;
  list-style: none;
  overflow: hidden;
- margin: 0 auto;
  padding-top: 20px;
  padding-bottom: 20px;
 }
 
 #topmemu li {
+  display: inline;
   font-size: 17px;
   float: left;
   width: 20%;
@@ -41,35 +46,36 @@ body {
 
 #infosidememu ul {
   background-color: white;
-  position: fixed;
+  position: fixed; top: 295px;
   list-style: none;
+  margin-left: 40px;
 }
 
 #infosidememu li {
 
 }
 
-
-
-.explain {
-  padding-top: 50px;
-  padding-left: 200px;
-
+.info {
+    padding-top: 30px;
 }
 
 .background_box {
+  text-align: center;
   position: relative; z-index: 1;
+
 }
 
 .prof_picture {
-  position: relative; z-index: 2; left:40px; top: -350px;
+  position: relative; top: -340px; z-index: 2;
 }
 
-#autoslide {
-  position: relative; z-index: 1;
+.prof_picture img {
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
-#login {
-  position: relative; left:10px; top: -100px; z-index: 2;
-
+.explain {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 200px;
 }

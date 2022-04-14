@@ -10,24 +10,29 @@ body {
   margin: 20px;
 }
 
+#topmemu {
+  text-align: center;
+  margin: 0 auto;
+  width: 1180px;
+}
 
 #topmemu a {
+  display: inline-block;
   color: white;
   text-decoration-line: none;
   font-weight: bold;
-
 }
 
 #topmemu ul {
  background-color: black;
  list-style: none;
  overflow: hidden;
- margin: 0 auto;
  padding-top: 20px;
  padding-bottom: 20px;
 }
 
 #topmemu li {
+  display: inline;
   font-size: 17px;
   float: left;
   width: 20%;
@@ -38,10 +43,11 @@ body {
 }
 
 #autoslide {
+
   position: relative; z-index: 1;
+  text-align: center;
 }
 
 #login {
-  position: relative; left:10px; top: -100px; z-index: 2;
-
+  position: relative; left: 411px; top: -150px; z-index: 2;
 }
