@@ -38,23 +38,6 @@ body {
   width: 20%;
 }
 
-#infosidememu a {
-  color: black;
-  text-decoration-line: none;
-  font-weight: bold;
-}
-
-#infosidememu ul {
-  background-color: white;
-  position: fixed; top: 295px;
-  list-style: none;
-  margin-left: 40px;
-}
-
-#infosidememu li {
-
-}
-
 .info {
     padding-top: 30px;
 }
