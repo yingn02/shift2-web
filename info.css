@@ -57,8 +57,18 @@ body {
   padding-bottom: 10px;
 }
 
-.explain {
-  text-align: center;
+.explain_box {
+    text-align: center;
+    position: relative; z-index: 1;
+}
+
+.explain_prof {
+    position: relative; left: 350px; top: -290px; z-index: 2;
+}
+
+.write {
+  text-align: right;
+  position: relative; left: -350px; top: -550px; z-index: 2;
   margin: 0px;
   padding-bottom: 200px;
 }
