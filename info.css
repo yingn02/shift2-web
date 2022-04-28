@@ -39,7 +39,7 @@ body {
 }
 
 .info {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .background_box {
@@ -49,7 +49,7 @@ body {
 }
 
 .prof_picture {
-  position: relative; top: -310px; z-index: 2;
+  position: relative; top: -300px; z-index: 2;
 }
 
 .prof_picture img {
@@ -57,18 +57,21 @@ body {
   padding-bottom: 40px;
 }
 
-.explain_box {
-    text-align: center;
-    position: relative; z-index: 1;
-}
-
 .explain_prof {
-    position: relative; left: 350px; top: -290px; z-index: 2;
+  display: block;
+  text-align: center;
+  position: relative; top: -350px; z-index: 2;
 }
 
-.write {
-  text-align: right;
-  position: relative; left: -350px; top: -550px; z-index: 2;
-  margin: 0px;
-  padding-bottom: 200px;
+.explain_prof div{
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.explain_prof p {
+  text-align: left;
+}
+
+.explain_prof strong {
+  font-size: 18px;
 }
