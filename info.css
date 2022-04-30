@@ -45,11 +45,10 @@ body {
 .background_box {
   text-align: center;
   position: relative; z-index: 1;
-  margin-bottom: -100px;
+  margin-bottom: -200px;
 }
 
 .prof_picture {
-
   position: relative; top: -300px; z-index: 2;
 }
 
@@ -61,7 +60,9 @@ body {
 
 .explain_prof {
   text-align: center;
-  position: relative; top: -230px; z-index: 2;
+  position: relative; top: -158px; left: -77px; z-index: 2;
+  font-weight: bold;
+
 }
 
 .explain_prof  h2 {
@@ -69,15 +70,12 @@ body {
 }
 
 .explain_prof div{
-  display: inline-block;
-  padding-left: 20px;
+  padding-top: 3px;
+  padding-left: 100px;
 }
 
-.explain_prof p {
+.explain_prof p{
   text-align: left;
-}
-
-.explain_prof strong {
-  font-size: 18px;
-
+  font-size: 17px;
+  padding-bottom: 2px;
 }
