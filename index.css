@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   background-image: url("background.png");
-  background-size: 1920px;
+  background-size: 1980px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -52,5 +52,5 @@ body {
 }
 
 #login {
-  position: relative; left: 411px; top: -150px; z-index: 2;
+  position: relative; left: 430px; top: -170px; z-index: 2;
 }
